@@ -1,0 +1,11 @@
+When working as a system operator and thinking about system automation, the first thing that comes to mind is automation with Shell Script. However, as a more efficient way, we propose that system operators learn the Go language in 2023; the Go language has the potential to replace Shell Script in system operations, and if its acquisition goes smoothly, the skill set of operators will be greatly improved.
+
+Therefore, in this blog, we will present a "100 Knock Knock" problem to help operators rewrite the Shell Script they use in system operations to the Go language. By solving these problems, operators can become familiar with the basic syntax and functions of the Go language, which will lead to more efficient system operation.
+
+First, let's list some reasons why the Go language is attractive to system operators: the Go language has powerful features such as concurrency and error handling, and these features are very useful in system operations. In addition, because the Go language is a compiled language, it has the advantage of fast execution speed and low resource consumption.
+
+Next, we will discuss this "100-knock" problem in detail. The problems cover the basic syntax and functionality of the Go language, allowing operators to understand the Go language's characteristics and develop practical skills. For example, they can learn basic Go language concepts such as string manipulation, file input/output, structures and interfaces.
+
+In addition, this "100-knock" course includes many problems that assume scenarios used in actual system operations, enabling operators to solve specific system operation problems while learning the Go language. This will help operators acquire Go language skills efficiently.
+
+The ultimate goal is for the operator to hone his or her own skills by applying the knowledge gained while solving these "100 knock-knock" problems in the field of system operations. In this section, we have introduced the "100 Knock-knock" problems for system operators to learn the Go language. By solving these problems, operators will become familiar with the basic syntax and functions of the Go language, and can expect to improve their system operation efficiency and skill set. We encourage you to take up the challenge of learning the Go language and aim for smarter system operation.
