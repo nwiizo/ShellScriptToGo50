@@ -1,0 +1,12 @@
+2023/03/30 13:45:36 [info] 1234#0: *56789 client 192.168.1.100 connected to server, request: "GET /index.html HTTP/1.1", host: "example.com"
+2023/03/30 13:45:36 [error] 1234#0: *56789 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.100, server: example.com, request: "GET /api/data HTTP/1.1", upstream: "http://127.0.0.1:8080/api/data", host: "example.com"
+2023/03/30 13:45:37 [info] 1234#0: *56790 client 192.168.1.101 connected to server, request: "GET /about.html HTTP/1.1", host: "example.com"
+2023/03/30 13:45:38 [info] 1234#0: *56791 client 192.168.1.102 connected to server, request: "GET /images/logo.png HTTP/1.1", host: "example.com"
+2023/03/30 13:45:39 [info] 1234#0: *56792 client 192.168.1.103 connected to server, request: "POST /api/data HTTP/1.1", host: "example.com"
+2023/03/30 13:45:40 [info] 1234#0: *56793 client 192.168.1.104 connected to server, request: "GET / HTTP/1.1", host: "example.com"
+2023/03/30 13:45:41 [info] 1234#0: *56794 client 192.168.1.105 connected to server, request: "GET /products HTTP/1.1", host: "example.com"
+2023/03/30 13:45:42 [info] 1234#0: *56795 client 192.168.1.106 connected to server, request: "GET /services HTTP/1.1", host: "example.com"
+2023/03/30 13:45:43 [info] 1234#0: *56796 client 192.168.1.107 connected to server, request: "GET /blog HTTP/1.1", host: "example.com"
+2023/03/30 13:45:44 [info] 1234#0: *56797 client 192.168.1.108 connected to server, request: "GET /contact HTTP/1.1", host: "example.com"
+2023/03/30 13:45:45 [info] 1234#0: *56798 client 192.168.1.109 connected to server, request: "GET /faq HTTP/1.1", host: "example.com"
+
