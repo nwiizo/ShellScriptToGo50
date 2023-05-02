@@ -1,0 +1,103 @@
+{
+"/LICENSE": 1
+,
+"git/COMMIT_EDITMSG": 1
+,
+"git/HEAD": 1
+,
+"git/config": 1
+,
+"git/description": 1
+,
+"git/index": 1
+,
+"git/info/exclude": 1
+,
+"git/logs/HEAD": 1
+,
+"git/logs/refs/heads/main": 1
+,
+"git/logs/refs/remotes/origin/HEAD": 1
+,
+"git/logs/refs/remotes/origin/main": 1
+,
+"git/objects/04/5cbab96e5a225a9c6e90accdc824a11b2adc28": 1
+,
+"git/objects/1d/7cbcb41e0dacf90fe7cc9f6ca13c528248b2b2": 1
+,
+"git/objects/21/096b5dd2fd5a9d3427c2d31a2e55174722e706": 1
+,
+"git/objects/27/21da5c10d412d3b185922af0cd6c41ce911132": 1
+,
+"git/objects/29/174a1ac270a217f934ccad53e8efdfb9afe660": 1
+,
+"git/objects/2f/d796d8242546711e0de0c907363881d60fa696": 1
+,
+"git/objects/2f/e1b86d3be291b69618a5c5399ffde5e2d2587e": 1
+,
+"git/objects/34/bd87cfb484c3a5697793a8480f971a013d3630": 1
+,
+"git/objects/3b/d77f900cfbb530cf24205ec31cdf8cada925a8": 1
+,
+"git/objects/3d/8165b08422f61430e4bced07244469211e88ba": 1
+,
+"git/objects/42/da4e4d3dfab7af93b3f62a466fa62b977d3a9f": 1
+,
+"git/objects/49/33bf6dd75fe9714f12419b572c0d6d98d12f09": 1
+,
+"git/objects/4a/b854041771892f1a548d072623e7cb01dfeb2c": 1
+,
+"git/objects/4f/17949a7fcd7722a398ac45a5242c7f51149983": 1
+,
+"git/objects/52/d4e03f3b506318c499d94c0617f23b7c4b9f8c": 1
+,
+"git/objects/5d/b21cff886baf5d440430bdf36219f07583aeb5": 1
+,
+"git/objects/5f/2f8ca554782e956244808b1795ee375c9577b8": 1
+,
+"git/objects/60/5c92b20ccc5695cfbe3aec395069d220977da7": 1
+,
+"git/objects/6b/ed78423beadfe47d67356c63cf50a35670a6fd": 1
+,
+"git/objects/79/e7e925d28e8ee0fcc747de4984a834b0712b80": 1
+,
+"git/objects/9a/ef11ee1ea43454e96f4e8c255667451e34bd75": 1
+,
+"git/objects/ba/a8a07a8b8343d0dc4ac524962c2abc77cd7aec": 1
+,
+"git/objects/d0/d7737cba4f515b037bad90de3a2aaff5d6508c": 1
+,
+"git/objects/e9/d64206c6bffcf56b2fe8d16b44178d1dbfacb7": 1
+,
+"git/objects/f3/316011fd7fdd43b47cced3f842acb3e924a727": 1
+,
+"git/objects/f6/7a333cbbe19b3c915fc56a867e0767406c909c": 1
+,
+"git/packed-refs": 1
+,
+"git/refs/heads/main": 1
+,
+"git/refs/remotes/origin/HEAD": 1
+,
+"git/refs/remotes/origin/main": 1
+,
+"go": 50
+,
+"idx": 1
+,
+"json": 2
+,
+"md": 50
+,
+"mod": 49
+,
+"pack": 1
+,
+"sample": 13
+,
+"sh": 49
+,
+"sum": 1
+,
+"txt": 5
+}

@@ -1,0 +1,31 @@
+#!/bin/bash
+
+target_dir="$1"
+extension_file="extension_count.txt"
+
+list_files() {
+  dir="$1"
+  find "$dir" -type f
+}
+
+for file in $(list_files "$target_dir"); do
+  ext="${file##*.}"
+  if [ "$ext" == "$file" ]; then
+    ext="other"
+  fi
+  echo "$ext" >> "$extension_file"
+done
+
+printf "{"
+first=true
+sort "$extension_file" | uniq -c | while read count ext; do
+  if [ "$first" = true ]; then
+    first=false
+  else
+    printf ","
+  fi
+  printf "\"%s\": %s" "$ext" "$count"
+done
+printf "}\n"
+
+rm "$extension_file"
