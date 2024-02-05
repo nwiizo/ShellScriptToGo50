@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/jackc/pgx/v4 v4.18.1
-	github.com/jackc/pgx/v5 v5.5.0
+	github.com/jackc/pgx/v5 v5.5.3
 	gopkg.in/yaml.v3 v3.0.1
 )
 
