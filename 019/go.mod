@@ -3,7 +3,7 @@ module 019
 go 1.20
 
 require (
-	github.com/jackc/pgx/v4 v4.12.1-0.20210724153913-640aa07df17c
+	github.com/jackc/pgx/v4 v4.18.1
 	github.com/jackc/pgx/v5 v5.5.0
 	gopkg.in/yaml.v3 v3.0.1
 )
