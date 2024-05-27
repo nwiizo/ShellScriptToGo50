@@ -1,18 +1,42 @@
 package main
 
 import (
-	"os"
-	"path/filepath"
+	"fmt"
+	"log"
+
+	"github.com/fsnotify/fsnotify"
 )
 
 func main() {
-	filepath.Walk("/path/to/directory", func(path string, info os.FileInfo, err error) error {
-		if err != nil {
-			return err
+	watcher, err := fsnotify.NewWatcher()
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer watcher.Close()
+
+	done := make(chan bool)
+	go func() {
+		for {
+			select {
+			case event, ok := <-watcher.Events:
+				if !ok {
+					return
+				}
+				if event.Op&fsnotify.Create == fsnotify.Create {
+					fmt.Println("New file created:", event.Name)
+				}
+			case err, ok := <-watcher.Errors:
+				if !ok {
+					return
+				}
+				log.Println("error:", err)
+			}
 		}
-		if !info.IsDir() {
-			os.Chmod(path, 0o444)
-		}
-		return nil
-	})
+	}()
+
+	err = watcher.Add("/path/to/watch")
+	if err != nil {
+		log.Fatal(err)
+	}
+	<-done
 }

@@ -8,7 +8,7 @@ DB_NAME=$(grep 'dbname:' config.yaml | awk '{print $2}')
 DB_PORT="5432"
 
 # データベースの作成
-createdb -h $DB_HOST -p $DB_PORT -U $DB_USER -O $DB_USER $DB_NAME
+# createdb -h $DB_HOST -p $DB_PORT -U $DB_USER -O $DB_USER $DB_NAME
 
 # DDLの実行
 PGPASSWORD=$DB_PASSWORD psql -h $DB_HOST -p $DB_PORT -U $DB_USER -d $DB_NAME -f library_ddl.sql
